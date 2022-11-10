@@ -17,7 +17,7 @@ const Hero = () => {
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.
         </p>
-        <Link to="/products" className="btn hero-btn">
+        <Link to="/e-commerce/products" className="btn hero-btn">
           Shop now
         </Link>
       </article>

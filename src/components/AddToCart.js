@@ -59,7 +59,7 @@ const AddToCart = ({ product }) => {
           decrease={decrease}
         />
         <Link
-          to="/cart"
+          to="/e-commerce/cart"
           className="btn"
           onClick={() => addToCart(id, mainColor, amount, product)}
         >

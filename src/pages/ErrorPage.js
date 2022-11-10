@@ -7,7 +7,7 @@ const ErrorPage = () => {
       <section>
         <h1>404</h1>
         <h3>Sorry, no such page</h3>
-        <Link type="button" to="/" className="btn">
+        <Link type="button" to="/e-commerce" className="btn">
           back home
         </Link>
       </section>

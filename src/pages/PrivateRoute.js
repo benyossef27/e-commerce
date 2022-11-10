@@ -5,7 +5,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 const PrivateRoute = ({ children, ...rest }) => {
   const { user } = useAuth0();
   if (!user) {
-    return <Navigate to="/" />;
+    return <Navigate to="/e-commerce" />;
   }
   return children;
 };

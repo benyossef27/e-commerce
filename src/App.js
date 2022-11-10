@@ -20,11 +20,11 @@ function App() {
         <Navbar />
         <Sidebar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/products/:id" element={<SingleProduct />} />
+          <Route path="/e-commerce" element={<Home />} />
+          <Route path="/e-commerce/about" element={<About />} />
+          <Route path="/e-commerce/cart" element={<Cart />} />
+          <Route path="/e-commerce/products" element={<Products />} />
+          <Route path="/e-commerce/products/:id" element={<SingleProduct />} />
           <Route
             path="/checkout"
             element={
